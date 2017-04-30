@@ -56,7 +56,7 @@
             <div class="card-content white-text">
                 <span class="card-title red accent-1"><center>ROUTE</center></span>
               <p><?php
-$connect = mysqli_connect("localhost","root","","bus");
+$connect = mysqli_connect("sql12.freemysqlhosting.net","sql12172008","hqcbMYJuYt","sql12172008");
 
 
 $sql = 'SELECT * FROM bus_inf';
